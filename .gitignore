@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datasets (too large for GitHub)
+# NSL-KDD is a public dataset, but it is ~50MB and is NOT redistributed here.
+# Download it yourself from the official NSL-KDD page, then place it at:
+#   ./nsl-kdd/KDDTrain+.txt
+nsl-kdd/
+
+# Environment variables / Secrets
+.env
+*.env
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Captured traffic / logs (never commit live network data)
+*.pcap
+*.pcapng
+*.cap
+*.log
+capture/
+captures/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

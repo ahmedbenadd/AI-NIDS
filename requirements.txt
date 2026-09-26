@@ -1,0 +1,15 @@
+# Core engine (ids_engine.py)
+scapy
+pandas
+numpy
+flask
+flask-socketio
+python-dotenv
+joblib
+scikit-learn
+xgboost
+eventlet
+
+# Notebooks only (models/*/*.ipynb)
+matplotlib
+seaborn
